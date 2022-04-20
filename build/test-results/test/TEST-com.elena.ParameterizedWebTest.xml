@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Wildberries Search Items" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-04-20T17:43:56" hostname="LAPTOP-7I6A7RKN" time="4.01">
+  <properties/>
+  <testcase name="check search of nike found Носки" classname="com.elena.ParameterizedWebTest" time="0.948"/>
+  <testcase name="check search of reebok found Кроссовки" classname="com.elena.ParameterizedWebTest" time="0.483"/>
+  <testcase name="check search of nike and Носки" classname="com.elena.ParameterizedWebTest" time="0.627"/>
+  <testcase name="check search of reebok and Кроссовки" classname="com.elena.ParameterizedWebTest" time="0.537"/>
+  <testcase name="Search product Куртка of brand nike" classname="com.elena.ParameterizedWebTest" time="0.574"/>
+  <testcase name="Search product Кроссовки of brand reebok" classname="com.elena.ParameterizedWebTest" time="0.813"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 22 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\elena\IdeaProjects\qa_guru_6\build\downloads\1650476632373_5692_22
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\elena\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 52784
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+апр. 20, 2022 9:43:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+апр. 20, 2022 9:43:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 97
+апр. 20, 2022 9:43:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 100 of 97
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from PT10S to PT10S
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from PT1M30S to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=100.0.4896.88 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.3.5
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.1.2 build revision: 9a5a329c5a
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 22: ChromeDriver -> ChromeDriver: chrome on WINDOWS (4b88d085851a838562daaaf565a6130a)
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser and proxy will stay open due to holdBrowserOpen=true: 22 -> ChromeDriver: chrome on WINDOWS (4b88d085851a838562daaaf565a6130a), null
+]]></system-err>
+</testsuite>
